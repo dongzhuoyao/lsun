@@ -1,3 +1,9 @@
+
+```
+unzip church_outdoor_train_lmdb.zip
+export church_outdoor_train_lmdb.zip --out_dir churches_flat_train --flat
+```
+
 # LSUN
 
 Please check [LSUN webpage](http://www.yf.io/p/lsun) for more information about the dataset.
