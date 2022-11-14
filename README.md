@@ -1,9 +1,13 @@
 
 ```
-mkdir ~/data/lsun
-unzip church_outdoor_train_lmdb.zip
 git clone https://github.com/dongzhuoyao/lsun.git lsun_github
 mv lsun_github/* .
+```
+
+```
+mkdir ~/data/lsun
+python download.py -c  church_outdoor
+unzip church_outdoor_train_lmdb.zip
 python data.py export church_outdoor_train_lmdb --out_dir churches_flat_train --flat
 ln -s churches_flat_train churches
 ```
