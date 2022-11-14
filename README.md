@@ -8,6 +8,9 @@ python data.py export church_outdoor_train_lmdb --out_dir churches_flat_train --
 ln -s churches_flat_train churches
 ```
 
+![image](https://user-images.githubusercontent.com/13537104/201697779-5d033e15-dc08-4eaa-b6d9-59b788f7dcec.png)
+
+
 # LSUN
 
 Please check [LSUN webpage](http://www.yf.io/p/lsun) for more information about the dataset.
